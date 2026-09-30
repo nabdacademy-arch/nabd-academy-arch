@@ -628,7 +628,13 @@ function showCertificate(id,data){
           <strong>${escapeHTML(data.issuer)}</strong>
         </div>
 
-      </div>
+      </div><div style="text-align:center;padding:28px 20px;border-top:1px solid #dbe8ec;">
+  <label style="display:block;margin-bottom:14px;font-weight:700;">Certificate QR Code</label>
+  <img src="${escapeHTML(id)}.png"
+       alt="QR Code for ${escapeHTML(id)}"
+       style="width:180px;height:180px;max-width:70%;object-fit:contain;background:#fff;padding:8px;border-radius:12px;">
+  <div style="margin-top:10px;font-size:14px;">${escapeHTML(id)}</div>
+</div>
 
     </div>
   `;
