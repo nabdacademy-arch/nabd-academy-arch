@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nabdacademy-arch.github.io/nabd-academy-arch/sitemap.xml
